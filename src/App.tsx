@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout } from 'antd';
 import 'antd/dist/antd.css';
-import DRContainer from './containers/PlotBuilder/DRContainer'
+//import DRContainer from './containers/PlotBuilder/DRContainer'
 import ImportFromDisk from './components/ImportFromDisk/ImportFromDisk'
 import ReactDOM from 'react-dom';
 
@@ -13,21 +13,21 @@ const App: React.FC = () => {
 
   // App with compenent for curve loading from the local disk - Standalone version
   
-  // return (
-  //   <Layout style={{height:"100%"}}>
-  //     <Content >
-  //     <ImportFromDisk/>
-  //     </Content>
-  //   </Layout>
-  // );
+  return (
+     <Layout style={{height:"100%"}}>
+       <Content >
+       <ImportFromDisk/>
+       </Content>
+     </Layout>
+   );
   
    // App with default files, no input files needed 
   
-  let drContainer = process.env.NODE_ENV === 'production'?'':<DRContainer modelState={modelState}/>;
+  //let drContainer = process.env.NODE_ENV === 'production'?'':<DRContainer modelState={modelState}/>;
   return (
     <Layout style={{height:"90%"}}>
       <Content >
-      {drContainer}
+      {/* {drContainer} */}
 
       </Content>
     </Layout>
@@ -39,7 +39,7 @@ const App: React.FC = () => {
 }
 
 
-function renderDRContainer(model, element) {
+//function renderDRContainer(model, element) {
   //Comment this piece of code to activate logging
   if (process.env.NODE_ENV === 'production') {
     const noop = () => {}
@@ -51,13 +51,13 @@ function renderDRContainer(model, element) {
       window.console[method] = noop
     })
   }
-  ReactDOM.render(<DRContainer modelState={model} />, element);
+  //ReactDOM.render(<DRContainer modelState={model} />, element);
 //  ReactDOM.render(
    // React.createElement(DRContainer, {modelState: model}, null),element);
   //console.log("Test External Method element:" + element);
-}
 
-(window as any).renderDRContainer = renderDRContainer;
+
+// (window as any).renderDRContainer = renderDRContainer;
 
 
 export default App;
