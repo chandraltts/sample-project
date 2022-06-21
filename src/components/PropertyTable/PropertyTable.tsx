@@ -119,7 +119,7 @@ const PropertyTable: React.FC<IPropertyTable> = (props) => {
         });
         
         const DragHandle = SortableHandle((e) => 
-          <LineOutlined style={{fontSize: '16px', verticalAlign: 'middle', color: colors[e.row.index]}}/>
+          <LineOutlined style={{ fontSize: '16px', verticalAlign: 'middle', color: colors[e.row.index] }} onChange={undefined}/>
           //<MenuOutlined style={{ cursor: 'grab', color: '#999' }} />
         );
         const SortableItem = SortableElement(props => <tr {...props} />);

@@ -1,22 +1,22 @@
-img{
+img {
   vertical-align: unset;
 }
 .App {
   margin: 1rem;
   font-family: Arial, Helvetica, sans-serif;
-  color:#666666;
+  color: #666666;
 }
 
-.PropertyDef .ant-checkbox-group .ant-checkbox-group-item{
+.PropertyDef .ant-checkbox-group .ant-checkbox-group-item {
   display: block;
  
 }
 
-.PropertyDef .ant-checkbox-group{
+.PropertyDef .ant-checkbox-group {
   margin-left: 40px;
 }
 
-.PropertyDef{
+.PropertyDef {
   margin: 20px;
   border-style: solid;
   border-width: 1px;
@@ -25,81 +25,79 @@ img{
   margin-top: 40px;
   
 }
-.PropertyDefLayout{
+.PropertyDefLayout {
   padding: 20px 20px 20px 0;
   border: 1px solid rgb(231, 230, 230);
 
 }
-.AnalysisClass{
-  padding: 20px 20px 20px 0;    
+.AnalysisClass {
+  padding: 20px 20px 20px 0;
 }
 
-  .DefineGroup{
+.DefineGroup {
   margin-left: 30px;
-  width:100%;
+  width: 100%;
 }
 
-div.ButtonPanel{
-
-  padding-top:10px;
+div.ButtonPanel {
+  padding-top: 10px;
 }
 
-div.ButtonPrevious{
+div.ButtonPrevious {
   float: left;
 }
-div.ButtonNext{
+div.ButtonNext {
   float: right;
   padding-right: 10px;
 }
 
-div.ButtonSave{
+div.ButtonSave {
   float: right;
   padding-right: 10px;
 }
 
-div.ButtonCancel{
+div.ButtonCancel {
   float: right;
   padding-right: 10px;
 }
 
-div.DefineGroupsDiv{
-  margin:30px;
+div.DefineGroupsDiv {
+  margin: 30px;
 }
 
-div.DefineGroupLayout{
-  width:55%;
+div.DefineGroupLayout {
+  width: 55%;
 }
 
-div.DefineGroupPlot{
-  width:40%;
+div.DefineGroupPlot {
+  width: 40%;
 }
 
-tr.DefineGroupOuterRow{
-  width:100%;
+tr.DefineGroupOuterRow {
+  width: 100%;
 }
 
-td.DefineGroupOuterCol1{
+td.DefineGroupOuterCol1 {
   vertical-align: top;
 }
 
-td.DefineGroupOuterCol2{
-  width:100%;
+td.DefineGroupOuterCol2 {
+  width: 100%;
   vertical-align: top;
 }
 
-div.steps-content{
+div.steps-content {
   overflow: auto;
 }
 
-section.DRLayout{
+section.DRLayout {
   background: none;
 }
 
-
-.InputAttribute{
+.InputAttribute {
   width: 100%;
-  padding : 4px 11px;
-  color : rgba(0, 0, 0, 0.75) !important;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.75) !important;
   font: normal 12px sans-serif;
   font-style: normal;
   font-variant-ligatures: normal;
@@ -118,7 +116,7 @@ section.DRLayout{
 .DropContainer {
   text-align: center;
 }
-.DropContainerButton{
+.DropContainerButton {
   text-align: left;
 }
 
@@ -143,14 +141,14 @@ section.DRLayout{
   /*font-size: calc(1px + 2vmin);*/
   /*color: white;*/
 }
-div.AssignedCurveDiv{
+div.AssignedCurveDiv {
   max-height: 570px;
   overflow-y: auto;
 }
 .drag-n-drop {
-  padding: .5rem;
+  padding: 0.5rem;
   display: grid;
-  gap: .5rem;
+  gap: 0.5rem;
   width: 100%;
   height: 100%;
   grid-template-columns: repeat(auto-fill, 300px);
@@ -165,12 +163,12 @@ div.AssignedCurveDiv{
   overflow: auto;
   margin-top: -4px;
 }
-.UnAssignedGroupDiv{
+.UnAssignedGroupDiv {
   margin-top: 6px;
   margin-top: 6px;
   overflow-y: auto;
 }
-.dnd-group-unAssigned{
+.dnd-group-unAssigned {
   margin: 1px;
   max-height: 570px;
   border-radius: 5px;
@@ -187,23 +185,23 @@ div.AssignedCurveDiv{
   border-radius: 5px;
   color: black;
   font-size: 12px;
-  box-shadow:0 0 5px 0 rgba(0, 0, 0, 0.3);
- }
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
 .dnd-item:not(:last-of-type) {
   margin-bottom: 5px;
 }
-.dnd-item * {  
+.dnd-item * {
   margin: 0;
   font-size: 12px;
 }
 .group-title {
   text-align: left;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 12px;
   font-weight: bold;
 }
 .current {
-  background-color: #F5F5F5;;
+  background-color: #f5f5f5;
 }
 
 .App-link {
@@ -219,187 +217,217 @@ div.AssignedCurveDiv{
   }
 }
 
-div.GroupLabel{
+div.GroupLabel {
   justify-content: center;
   font-size: 13px;
-  font-weight:bold;
+  font-weight: bold;
 }
 
-div.GroupLabel .ant-col input{
+div.GroupLabel .ant-col input {
   font-size: 13px;
 }
 
-.PlotCurve{
-width: 50%;
-height: 80%;
+.PlotCurve {
+  width: 50%;
+  height: 80%;
 }
-.CardTitle{
-font-weight: bold;
+.CardTitle {
+  font-weight: bold;
 }
-.Available{
-background-color: green;
+.Available {
+  background-color: green;
 }
-.NotAvailable{
-background-color: red;
+.NotAvailable {
+  background-color: red;
 }
 
 
 .Grid {
-font-family: Arial, Helvetica, sans-serif;
-border-collapse: collapse;
-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
-.GridAttribute{
+.GridAttribute {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
 }
 
-.Grid td, .Grid th {
-border: 1px solid #ddd;
-padding: 8px;
-}
-
-.Grid tr:nth-child(even){background-color: #F7F7F7;}
-
-.Grid tr:nth-child(odd){background-color: #FFF;}
-
+.Grid td,
 .Grid th {
-padding-top: 12px;
-padding-bottom: 12px;
-text-align: left;
-background-color: #CCCCCC;
-color: #666666;
-}
-
-.Grid td.MatData {
-padding: 12px;
-text-align: left;
-color: #666666;
-white-space: nowrap;
-}
-
-.GridAttribute td, .GridAttribute th {
   border: 1px solid #ddd;
   padding: 8px;
-  }
+}
 
-  .Grid th.DraggableTH{
-    text-align: center !important; 
-    cursor: move;
-    color: #666666;
-    box-shadow: 0 0 5px 0 rgb(0 0 0 / 30%) !important;
-  }
-  .Grid th.DraggableTHDrag{
-    background-color: #666666;
-    text-align: center !important; 
-    cursor: move;
-    border: 2px solid #1890FF;
-    color: #CCCCCC;
-    box-shadow: 0 0 5px 0 rgb(0 0 0 / 30%) !important;
-  }
-  
-  .GridAttribute tr:nth-child(even){background-color: #F7F7F7;}
-  
-  .GridAttribute tr:nth-child(odd){background-color: #FFF;}
-  
-  .GridAttribute th {
+.Grid tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.Grid tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.Grid th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #CCCCCC;
+  background-color: #cccccc;
   color: #666666;
-  }
-  
-  .GridAttribute td.MatData {
+}
+
+.Grid td.MatData {
   padding: 12px;
   text-align: left;
   color: #666666;
   white-space: nowrap;
-  }
-span.EmptyPropDef{
-text-decoration: line-through;
 }
 
-div.criteriaDiv .ant-checkbox-group-item{
-display: block;
-margin-right: 0px;
+.GridAttribute td,
+.GridAttribute th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
-.dnd-item.DNDSelect{
-background-color: #666666;
+.Grid th.DraggableTH {
+  text-align: center !important;
+    text-align: center !important; 
+  text-align: center !important;
+    text-align: center !important; 
+  text-align: center !important;
+    text-align: center !important; 
+  text-align: center !important;
+    text-align: center !important; 
+  text-align: center !important;
+    text-align: center !important; 
+  text-align: center !important;
+    text-align: center !important; 
+  text-align: center !important;
+    text-align: center !important; 
+  text-align: center !important;
+    text-align: center !important; 
+  text-align: center !important;
+    text-align: center !important; 
+  text-align: center !important;
+    text-align: center !important; 
+  text-align: center !important;
+  cursor: move;
+  color: #666666;
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 30%) !important;
+}
+.Grid th.DraggableTHDrag {
+  background-color: #666666;
+  text-align: center !important;
+  cursor: move;
+  border: 2px solid #1890ff;
+  color: #cccccc;
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 30%) !important;
 }
 
-.AnalysisResultLabel{
-    font: bold 12px sans-serif;
-    font-style: normal;
-    font-variant-ligatures: normal;
-    font-variant-caps: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-stretch: normal;
-    font-size: 12px;
-    line-height: normal;
-    font-family: sans-serif;
+.GridAttribute tr:nth-child(even) {
+  background-color: #f7f7f7;
 }
 
-td.LeftColumn{
- width: 40%;
- vertical-align: top;
- margin: 30px;
+.GridAttribute tr:nth-child(odd) {
+  background-color: #fff;
 }
 
-td.RightColumn{
-width: 60%;
-vertical-align: top;
-margin: 30px;
-}
-tr.DefineRow{
-width: 100%;
-}
-div.PlotCurveDiv{
-top: 30px;
+.GridAttribute th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #cccccc;
+  color: #666666;
 }
 
-table.DefineTable{
-margin: 40px;
+.GridAttribute td.MatData {
+  padding: 12px;
+  text-align: left;
+  color: #666666;
+  white-space: nowrap;
+}
+span.EmptyPropDef {
+  text-decoration: line-through;
 }
 
-table.DefineGroupOuterTable{
-width:100%;
+div.criteriaDiv .ant-checkbox-group-item {
+  display: block;
+  margin-right: 0px;
 }
 
-div.DRContainerDiv{
-margin-top: 20px;
+.dnd-item.DNDSelect {
+  background-color: #666666;
 }
 
-div.ant-tree-list-holder{
-overflow: auto !important;
+.AnalysisResultLabel {
+  font: bold 12px sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-stretch: normal;
+  font-size: 12px;
+  line-height: normal;
+  font-family: sans-serif;
 }
 
-div.ant-tree-list-scrollbar{
-display: none !important;
+td.LeftColumn {
+  width: 40%;
+  vertical-align: top;
+  margin: 30px;
 }
-div.OuterDivScroll{
-width:100%;
-height: 65vh;
-overflow: auto;
+
+td.RightColumn {
+  width: 60%;
+  vertical-align: top;
+  margin: 30px;
 }
-div.OuterTableScroll{
+tr.DefineRow {
+  width: 100%;
+}
+div.PlotCurveDiv {
+  top: 30px;
+}
+
+table.DefineTable {
+  margin: 40px;
+}
+
+table.DefineGroupOuterTable {
+  width: 100%;
+}
+
+div.DRContainerDiv {
+  margin-top: 20px;
+}
+
+div.ant-tree-list-holder {
+  overflow: auto !important;
+}
+
+div.ant-tree-list-scrollbar {
+  display: none !important;
+}
+div.OuterDivScroll {
+  width: 100%;
+  height: 65vh;
+  overflow: auto;
+}
+div.OuterTableScroll {
   width: 100%;
   min-height: 70vh;
   max-height: 70vh;
   overflow: auto;
 }
-div.OuterDivSaveScroll{
-  width:100%;
+div.OuterDivSaveScroll {
+  width: 100%;
   height: 65vh;
   overflow: auto;
 }
 .js-plotly-plot .plotly .modebar {
-    position: absolute;
-    top: 2px;
-    right: 2px;
-    z-index: 1000;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 1000;
 }
 .js-plotly-plot .plotly .modebar-group {
   float: left;
@@ -411,13 +439,13 @@ div.OuterDivSaveScroll{
   white-space: nowrap;
 }
 
-.PlotBuilderCollapse .ant-collapse-header{
+.PlotBuilderCollapse .ant-collapse-header {
   font-size: 15px;
   font-weight: bold;
 }
 
 .ant-collapse > .ant-collapse-item > .ant-collapse-header {
-    padding: 0px 16px;
+  padding: 0px 16px;
 }
 .ant-collapse-content > .ant-collapse-content-box {
   padding: 0px;

@@ -130,7 +130,7 @@ const Consolidation: React.FC<IConsolidation> = (props) => {
                       const checked = (checkedFailureCurves.findIndex(e => e===g.title)===-1?false:true);
                       return(
                         <Row key={'row'+index} >
-                          <Checkbox  style={{fontSize: '12px'}} value={g.title} disabled={dis} checked={checked} onChange={onFailureHandler}> <LineOutlined style={{fontSize: '24px', verticalAlign: 'middle', color: colors[index]}}/>{g.title}</Checkbox>
+                          <Checkbox  style={{fontSize: '12px'}} value={g.title} disabled={dis} checked={checked} onChange={onFailureHandler}> <LineOutlined style={{ fontSize: '24px', verticalAlign: 'middle', color: colors[index] }} onChange={undefined}/>{g.title}</Checkbox>
                         </Row>
                       )
                     }
@@ -156,7 +156,7 @@ const Consolidation: React.FC<IConsolidation> = (props) => {
                  return(    
                       <Row style={{fontSize: '12px'}} key={g.title}>
                           <Col span={8}>
-                            <LineOutlined style={{fontSize: '24px', verticalAlign: 'middle', color: colors[index]}}/> {g.title}
+                            <LineOutlined style={{ fontSize: '24px', verticalAlign: 'middle', color: colors[index] }} onChange={undefined}/> {g.title}
                           </Col>
                           <Col span={8}>
                           <InputNumber

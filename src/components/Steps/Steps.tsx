@@ -118,11 +118,11 @@ const Steps: React.FC<StepsProps> = (props) => {
        for(let i=0;i<props.operations.length;i++){
             const description = props.operations[i].action_label;
             const label = i;
-            let icon = <RightCircleOutlined/>; // for waiting
+            let icon = <RightCircleOutlined onChange={undefined}/>; // for waiting
             if(props.operations[i].status==='success')
-                icon = <CheckCircleFilled/>;
+                icon = <CheckCircleFilled onChange={undefined}/>;
             else if (props.operations[i].status==='failed')
-                icon = <ExclamationCircleTwoTone twoToneColor="#eb2f2f"/>;
+                icon = <ExclamationCircleTwoTone twoToneColor="#eb2f2f" onChange={undefined}/>;
             items.push(<AntSteps.Step icon={icon} title={description} key={i} />);
         }
         return(

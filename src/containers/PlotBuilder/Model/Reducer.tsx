@@ -55,7 +55,7 @@ const dataReducer = (currentData: Data, action: any) => {
                                                 //  y0: (initState?[...c.y]:[...c.y0])};
                          group_c.curves.push(curve_d);
                          // insert in GroupData
-                         const curve_data: CurveData = { title: curve_d.label,key: '',icon: <LineOutlined style={{fontSize: '24px', color: colors[index_c]}}/>};
+                         const curve_data: CurveData = { title: curve_d.label,key: '',icon: <LineOutlined style={{ fontSize: '24px', color: colors[index_c] }} onChange={undefined}/>};
                          curve_data.key = index_g.toString()+'-'+index_c.toString();
                          group_d.treeData.push(curve_data);
                          if(initState){

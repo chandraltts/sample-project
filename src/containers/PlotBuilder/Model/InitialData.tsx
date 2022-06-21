@@ -11,7 +11,7 @@ const InitialData = {
              }
             ],
     tree: { groupData: [ {title:'group1',
-                          treeData: [{title: 'curve1', key: '0-0', icon: <LineOutlined/>}],
+                          treeData: [{title: 'curve1', key: '0-0', icon: <LineOutlined onChange={undefined}/>}],
                           keys: [],
                           resultsView: 0
                           }

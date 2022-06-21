@@ -26,7 +26,7 @@ const CurveAvgControls: React.FC<CurveAvgControlsProps> = (props) => {
             if(withAvgResult){
                 const color = (gid===props.workingGroup?'#000000':colors[gid]);
                 const key = "0-"+gid.toString();
-                const curveD = { title: props.data.groups[gid].label, key: key, icon: <LineOutlined style={{fontSize: '24px', color: color}}/>} 
+                const curveD = { title: props.data.groups[gid].label, key: key, icon: <LineOutlined style={{ fontSize: '24px', color: color }} onChange={undefined}/>} 
                 tree.push(curveD);
                 keys.push(key);
             }
