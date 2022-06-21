@@ -1820,7 +1820,6 @@ var Module = (function () {
     // In non-standalone/normal mode, we create the memory here.
     // include: runtime_init_memory.js
 
-
     // Create the main memory. (Note: this isn't used in STANDALONE_WASM mode since the wasm
     // memory is created in the wasm, not in JS.)
 
@@ -2126,10 +2125,8 @@ var Module = (function () {
 
     // include: memoryprofiler.js
 
-
     // end include: memoryprofiler.js
     // include: URIUtils.js
-
 
     function hasPrefix(str, prefix) {
       return String.prototype.startsWith
@@ -4287,10 +4284,11 @@ var Module = (function () {
       Module["get_first_emval"] = get_first_emval;
     }
     function __emval_register(value) {
-       switch (value) {
-         case undefined: {
-           return 1; }
-        
+      switch (value) {
+        case undefined: {
+          return 1;
+        }
+
         case null: {
           return 2;
         }
