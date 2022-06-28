@@ -1,27 +1,26 @@
 {
-"operations":[
-{"action":"Cleaning_ends",
-  "method":"Y_Max"
-},
-{"action":"Shifting",
-  "method":"X_tangent_yrange",
-  "parameters":[ {"min": 0.0 } ]
-},
-{"action":"Averaging",
-  "method":"Spline",
-  "parameters":[
-    {"number_of_points": 30 },
-    {"distribution": "linear_refinement"},
-    {"number_of_nodes": 5 },
-    {"regularization": 4},
-    {"end_point": "min_max_x"}
+  "operations": [
+    { "action": "Cleaning_ends", "method": "Y_Max" },
+    {
+      "action": "Shifting",
+      "method": "X_tangent_yrange",
+      "parameters": [{ "min": 0.0 }]
+    },
+    {
+      "action": "Averaging",
+      "method": "Spline",
+      "parameters": [
+        { "number_of_points": 30 },
+        { "distribution": "linear_refinement" },
+        { "number_of_nodes": 5 },
+        { "regularization": 4 },
+        { "end_point": "min_max_x" }
+      ]
+    },
+    {
+      "action": "Extrapoling",
+      "method": "None",
+      "parameters": [{ "extrapolating_end_point": "mean_max_x" }]
+    }
   ]
-},
-{"action":"Extrapoling",
-  "method":"None",
-  "parameters":[
-    {"extrapolating_end_point": "mean_max_x"}
-  ]
-}
-]
 }

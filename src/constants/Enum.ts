@@ -1,10 +1,10 @@
 export enum PlotMode {
-   Averaging,
-   Consolidation
-};
+  Averaging,
+  Consolidation,
+}
 
 export enum ErrorType {
-   Error,
-   Warning,
-   Info
-};
+  Error,
+  Warning,
+  Info,
+}

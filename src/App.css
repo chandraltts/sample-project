@@ -108,11 +108,7 @@ section.DRLayout {
   font-stretch: normal;
   font-size: 12px !important;
   line-height: normal;
-  font-family: sans-serif;
-}
-
-
-
+  font-family: sans-serif;}
 .DropContainer {
   text-align: center;
 }
@@ -238,10 +234,7 @@ div.GroupLabel .ant-col input {
   background-color: green;
 }
 .NotAvailable {
-  background-color: red;
-}
-
-
+  background-color: red;}
 .Grid {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -289,26 +282,7 @@ div.GroupLabel .ant-col input {
 
 .Grid th.DraggableTH {
   text-align: center !important;
-    text-align: center !important; 
-  text-align: center !important;
-    text-align: center !important; 
-  text-align: center !important;
-    text-align: center !important; 
-  text-align: center !important;
-    text-align: center !important; 
-  text-align: center !important;
-    text-align: center !important; 
-  text-align: center !important;
-    text-align: center !important; 
-  text-align: center !important;
-    text-align: center !important; 
-  text-align: center !important;
-    text-align: center !important; 
-  text-align: center !important;
-    text-align: center !important; 
-  text-align: center !important;
-    text-align: center !important; 
-  text-align: center !important;
+
   cursor: move;
   color: #666666;
   box-shadow: 0 0 5px 0 rgb(0 0 0 / 30%) !important;
