@@ -1,35 +1,33 @@
 .row-dragging {
-    background: #fafafa;
-    border: 1px solid #ccc;
-  }
-  
-  .row-dragging td {
-    padding: 16px;
-  }
-  
-  .row-dragging .drag-visible {
-    visibility: visible;
-    font-size: 12px;
-  }
- 
-  .ant-table table  {
-    font-size: 12px;
-   
-  }
+  background: #fafafa;
+  border: 1px solid #ccc;
+}
 
+.row-dragging td {
+  padding: 16px;
+}
 
-  .ant-table-thead > tr >th{
-    color: white;
-    background: #3071b9 !important;
-  }
+.row-dragging .drag-visible {
+  visibility: visible;
+  font-size: 12px;
+}
 
-  .ant-table.ant-table-small .ant-table-thead > tr > th{
-    padding: 2px 4px;
-    text-align: center;
-  }
+.ant-table table {
+  font-size: 12px;
+}
 
-.ant-table.ant-table-small .ant-table-tbody > tr > td{
-   padding: 2px 4px;
+.ant-table-thead > tr > th {
+  color: white;
+  background: #3071b9 !important;
+}
+
+.ant-table.ant-table-small .ant-table-thead > tr > th {
+  padding: 2px 4px;
+  text-align: center;
+}
+
+.ant-table.ant-table-small .ant-table-tbody > tr > td {
+  padding: 2px 4px;
 }
 
 .ant-tooltip-inner {
