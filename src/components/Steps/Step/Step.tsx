@@ -103,9 +103,7 @@ const Step: React.FC<StepProps> = (props) => {
         })}
       </Select>
 
-   
-   
-   <DisplayParametersForms
+      <DisplayParametersForms
         initParams={
           initParamsHandler() /*props.methods.find( e => e.type===props.selected_method ).params*/
         }

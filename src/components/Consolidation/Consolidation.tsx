@@ -41,7 +41,9 @@ const Consolidation: React.FC<IConsolidation> = (props) => {
   const [checkedFailureCurves, setCheckedFailureCurves] = useState<string[]>(
     []
   ); // selected curves to be adjusted
-  const [checkedStiffnessCurves, setCheckedStiffnessCurves] = useState<string[]>([]);
+  const [checkedStiffnessCurves, setCheckedStiffnessCurves] = useState<
+    string[]
+  >([]);
   const [parameterValues, setParameterValues] = useState<
     { curve: string; parameter: string; value: number }[]
   >([]);
