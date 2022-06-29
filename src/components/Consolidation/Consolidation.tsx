@@ -217,12 +217,11 @@ const Consolidation: React.FC<IConsolidation> = (props) => {
                     >
                       {" "}
                       <LineOutlined
-                        style={{
-                          fontSize: "24px",
-                          verticalAlign: "middle",
-                          color: colors[index],
-                        }}
-                      />
+                                style={{
+                                    fontSize: "24px",
+                                    verticalAlign: "middle",
+                                    color: colors[index],
+                                }} onChange={undefined}                      />
                       {g.title}
                     </Checkbox>
                   </Row>
@@ -252,12 +251,11 @@ const Consolidation: React.FC<IConsolidation> = (props) => {
                   <Row style={{ fontSize: "12px" }} key={g.title}>
                     <Col span={8}>
                       <LineOutlined
-                        style={{
-                          fontSize: "24px",
-                          verticalAlign: "middle",
-                          color: colors[index],
-                        }}
-                      />{" "}
+                                style={{
+                                    fontSize: "24px",
+                                    verticalAlign: "middle",
+                                    color: colors[index],
+                                }} onChange={undefined}                      />{" "}
                       {g.title}
                     </Col>
                     <Col span={8}>
